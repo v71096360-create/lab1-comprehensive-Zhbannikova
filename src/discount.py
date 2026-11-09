@@ -1,4 +1,4 @@
-   import os
+
 
    def calculate_cart_total(cart_sum, tier, promos):
        price = cart_sum
@@ -15,4 +15,4 @@
            price = price * 0.93
        if price < cart_sum * 0.70:
            price = cart_sum * 0.70
-       return price # ЭТОТ ДЛИННЫЙ КОММЕНТАРИЙ СПЕЦИАЛЬНО СДЕЛАН ДЛИННЕЕ 80 СИМВОЛОВ ДЛЯ ПРОВЕРКИ РАБОТЫ ЛИНТЕРА FLAKE8
+       return price 
